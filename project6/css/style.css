@@ -1,0 +1,255 @@
+* {
+	transition: 1s all ease-in-out;
+}
+body {
+	padding: 0;
+	margin: 0;
+	background-color:white;
+}
+
+.top{
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  float: right;
+}
+
+.brand {
+	float: left;
+}
+
+li a {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding:20px;
+	font-size: 20px;
+}
+
+li a:hover{
+	background: #000;
+
+}
+
+li a.re:hover {
+  background-color:#aaa;
+}
+
+.re
+{
+	float:left;
+	background:#4caf50;
+}
+
+#about,#Bloge,#Project,#contact
+{
+	display:block;
+	/* margin:10px; */
+	left:-71px;
+	width:100px;
+	padding:10px;
+	transition-duration: 2s;
+	color:white;
+	position: fixed;
+	z-index: 1;
+}
+
+#about:hover,#Bloge:hover,#Project:hover,#contact:hover{
+	left: 0;
+}
+
+#contact
+{
+	top: 80px;
+	background-color:black;
+}
+#Project
+{
+	top: 120px;
+	background-color:red;
+}
+#Bloge
+{
+	top: 160px;
+	background-color:blue;
+}
+#about
+{
+	top: 200px;
+	background-color:green;
+}
+
+h1
+{
+	display:inline-block;
+	font-weight:bold;
+	top:40px;
+	margin-left:110px;
+	position:scroll;
+}
+dl {
+  margin: 0;
+  padding: 24px 0 0 0;
+  top:50px;
+  margin-left:60px;
+}
+
+dt {
+  background:black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  color: white;
+  margin: 0;
+  padding: 5px 12px;
+  position: sticky;
+  top: 64px;
+}
+
+dd {
+  font-size:20px;
+  font-family:Helvetica, Arial, sans-serif;
+  margin-top: 5px;
+  padding: 0 0 0 3px;
+}
+
+.img{
+	background-image:url('../images/so.jpg');
+	padding:130px;
+	margin:50px;
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+}
+
+.parent{
+	color:white;
+	background-color:rgba(229, 43, 80, 0.52);
+	padding:30px;
+	margin:10px;
+}
+
+.child{
+	background-color:rgba(164,198 ,57 , 0.52);
+	margin:5px;
+	padding:10px;
+}
+p.child:hover~p { /* added ~ to make hover effect to brothers */
+	background-color:rgba(241,156,187, 0.20);
+}
+
+.Grand {
+	background-color:rgba(153,102 ,204 , 0.22);
+	margin:5px;
+	padding:10px;
+}
+
+.img2{
+	background-image:url('../images/uo.jpg');
+	background-size:	background-size:100%;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	padding:140px;
+	margin:20px;
+}
+
+.p:first-line {
+	background-color:#aaa;
+}
+.p:first-letter {
+	font-weight:bold;
+	background-color:red;
+	border-radius:20px;
+	margin:0px 10px 0 0;
+	padding:0px 10px;
+}
+
+.p {
+	color:#9e3364;
+	font-size:20px;
+	background-color:#DDD;
+}
+
+.back{
+	background-image:url('../images/go.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+	padding:200px;
+	padding-right:265px;
+	/* margin-left:10px; */
+	/* margin-bottom:10px;
+	margin-top:30px; */
+	margin: 10px 0;
+	display:inline-block;
+}
+
+.mo {
+	background-color:#f2c992;
+	max-height:30px;
+	text-align:center;
+	direction:center;
+	color:black;
+	font-size:20px;
+	line-height:40px;
+	overflow:hidden;
+	padding: 5px;
+	cursor: pointer;
+}
+
+p.mo:hover {
+	max-height:115px;
+	background-color:rgba(0, 255, 213, 0.26);
+
+}
+
+.back:hover:after {
+	content:" this div harvered";
+	padding:20px;
+	margin-top:120px;
+	max-height:40px;
+	max-width:200px;
+	background-color:rgba(153,102 ,204 , 0.22);
+	color:black;
+	display: block;
+	/* margin:30px; */
+}
+
+.img2 {
+	background-image:url('../images/uo.jpg');
+	background-size:100%;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	padding:140px;
+	margin:20px;
+}
+
+.p:first-line {
+	background-color:#aaa;
+}
+
+.p:first-letter {
+	font-weight:bold;
+	background-color:red;
+	border-radius:20px;
+	margin:0px 10px 0 0;
+	padding:0px 10px;
+}
+
+.p{
+	color:#9e3364;
+	font-size:20px;
+	background-color:#DDD;
+}
