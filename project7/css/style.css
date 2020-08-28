@@ -1,0 +1,220 @@
+body
+{
+	background-color:white;
+	padding:0px;
+	margin:0px;
+}
+.nav
+{
+width:100%;
+height:8%;
+background-color:white;
+}
+.nav p{
+	font-size:25px;
+	float:left;
+	padding:15px;
+	margin-top:0px;
+	color:#21455e;
+	font-weight:bold;
+}
+.nav ul{
+	list-style-type:none;
+	float:left;
+	margin-left:900px;
+	width:20%;
+	margin-top:20px;
+}
+.nav ul li {
+	display:inline;
+	margin-left:7px;
+	color:#21455e;
+}
+.nav ul li:hover{
+background-color:#F0F8FF;
+padding:7px;
+}
+/* header*/
+.header
+{
+	width:100%;
+	height:700px;
+	background-image:url('../image/go.jpg');
+	background-size:cover;
+	position:relative;
+}
+.opicty
+{
+	width:100%;
+	height:100%;
+	background-color:black;
+	opacity:0.4;
+}
+.header p{
+	position:absolute;
+	top:170px;
+	left:30%;
+	color:white;
+	font-size:40px;
+	font-weight:bold;
+	border-bottom: solid red;
+}
+	
+/* about */
+.about
+{padding:90px;
+}
+.about p{
+	width:40%;
+	font-size:25px;
+	font-font-family:cairo;
+	float:left;
+}
+.about p span{
+	display:block;
+	font-size:25px;
+	border-bottom:solid thin red;
+	color: black;
+	text-transform:uppercase;
+	width:20%;
+	margin-bottom:15px;
+}
+.about img
+{
+	margin-left:60px;
+	width:55%;
+	height:60%;
+	box-shadow:8px 0 30px black;
+}
+/*service*/
+.service
+{
+	background-image:url('../image/mo.jpg');
+	background-size:cover;
+	position:relative;
+	width:100%;
+	height:700px;
+}
+.service span 
+{
+	color:white;
+	font-size:50px;
+	border-bottom:solid red;
+	position:absolute;
+	left:40%;
+	z-index:2;
+}
+.opisty
+{
+	width:100%;
+	height:100%;
+	background-color:black;
+	position:absolute;
+	opacity:0.7;
+	left:0;
+	top:0;
+}
+.service .opisty .elemnt
+{
+	width:180px;
+	height:200px;
+	color:white;
+	font-size:15px;
+	font-family:karla;
+	text-align:center;
+	margin-top:300px;
+	margin-left:17%;
+	float:left;
+}
+.service .opisty .elemnt i
+{
+	background-color:#C41E3A;
+	padding:20px;
+}
+.mywork
+{
+	padding:100px 0;
+}
+.mywork span{
+	display:blok;
+	font-size:30px;
+	border-bottom:solid  red;
+	color:black;
+	text-transform:uppercase;
+	margin-bottom:15px;
+	position:absolute;
+	left:40%;
+	
+}
+.rego
+{
+	width:330;
+	height:300px;
+	margin:3% 0 0 3%;
+}
+.cont
+{
+	padding:60px 0px;
+	background-color:#333;
+}
+.cont .elemnt
+{
+	width:20%;
+	height:100px;
+	float:left;
+	text-align:center;
+	padding-top:13px;
+	color:red;
+	background-color:white;
+	box-shadow: 0 0 20px #E32636;
+	margin-left:10%;
+	font-size:25px;
+}
+.cont ul{
+list-style-type:none;
+margin-top:160px;
+margin-left:40%;
+}
+.cont ul li{
+	display:inline;
+	color:red;
+	margin-left:20px;
+	background-color:
+}
+.footer
+{
+	padding:20px;
+	background-color:black;
+	color:white;
+	font-size:20px;
+	text-align:center;
+}
+.statistics
+{
+	background-image:url('https://best-images.co/wp-content/uploads/2017/09/791.jpg');
+	background-size:cover;
+	background-repeat:none;
+	padding:50%;
+	height:200px;
+}
+.statistics .elemnt
+{
+	width:30%;
+	height:100px;
+	float:left;
+	text-align:center;
+	padding-top:20px;
+	color:red;
+	background-color:white;
+	margin-left:20%;
+	font-size:25px;
+}
+
+	
+	
+
+	
+	
+
+ 
+	
