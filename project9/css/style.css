@@ -1,3 +1,4 @@
+
 * {
 	transition: 1s all ease-in-out;
 }
@@ -53,7 +54,6 @@ li a.re:hover {
 	float:left;
 	background:#4caf50;
 }
-
 #about,#Bloge,#Project,#contact
 {
 	display:block;
@@ -93,94 +93,77 @@ li a.re:hover {
 }
 
 
+.img
+{
+	padding:40px;
+	background-image:url('https://supercairo.com/wp-content/uploads/2016/11/%D8%B5%D9%88%D8%B1-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D8%A7%D8%AD%D9%84%D9%8A-%D9%88%D8%A3%D8%AC%D9%85%D9%84-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D8%B1%D9%88%D8%B9%D8%A9-HD-12.jpg');
+	background-size:100%;
+	position:relative;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
 
-.img{
-	background-image:url('../images/so.jpg');
+}
+ .p1
+{
+
+
+	padding:40px;
+	background-color:rgba(0, 255, 213, 0.26);
+	font-size:20px;
+	margin-top:80px;
+	margin-left:20px;
+}
+details
+{
+	margin-top:20px;
+	padding:20px;
+}
+.data
+{
+	margin-left:10px;
+	font-size:20px;
+}
+.img2
+{
+	background-image:url('https://i.ytimg.com/vi/PlT-BXvQFGg/maxresdefault.jpg');
 	padding:130px;
-	margin:50px;
-	background-repeat:no-repeat;
 	background-size:100%;
-	background-attachment:fixed;
-}
-
-
-
-.img2{
-	background-image:url('../images/uo.jpg');
-	background-size:	background-size:100%;
+	position:relative;
 	background-attachment:fixed;
 	background-repeat:no-repeat;
-	padding:140px;
-	margin:20px;
+	margin-top:30px;
+}
+.input
+{
+	background-color:rgba(231,84,128,0.5);
+	border:2px solid black;
+	padding:40px;
+	width:100%;
 }
 
-.p:first-line {
-	background-color:#aaa;
-}
-.p:first-letter {
-	font-weight:bold;
-	background-color:red;
-	border-radius:20px;
-	margin:0px 10px 0 0;
-	padding:0px 10px;
-}
+.img3
 
-.p {
-	color:#9e3364;
+{
+	background-image:url('https://i2.wp.com/rjeem.com/wp-content/uploads/2019/01/8-1-1.jpg?fit=800%2C600&ssl=1&is-pending-load=1');
+	padding:90px;
+	background-size:100%;
+	position:relative;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	margin-top:30px;
+}
+.pro
+{
+	padding:15px;
+	margin-top:20px;
+	background-color:rgba(241,156,187,0.6);
+}
+footer
+{
+	background-color:black;
+	color :white;
+	padding:5px;
 	font-size:20px;
-	background-color:#DDD;
-}
-
-.back{
-	background-image:url('../images/go.jpg');
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-attachment:fixed;
-	padding:200px;
-	padding-right:1200px;;
-	/* margin-left:10px; */
-	/* margin-bottom:10px;
-	margin-top:30px; */
-	margin: 10px 0;
-	display:inline-block;
-}
-
-.mo {
-	background-color:#f2c992;
 	text-align:center;
-	direction:center;
-	color:black;
-	font-size:20px;
-	line-height:40px;
-	overflow:hidden;
-	padding: 15px;
-	cursor: pointer;
-}
-
-
-.img2 {
-	background-image:url('../images/uo.jpg');
-	background-size:100%;
-	background-attachment:fixed;
-	background-repeat:no-repeat;
-	padding:140px;
-	margin:20px;
-}
-
-.p:first-line {
-	background-color:#aaa;
-}
-
-.p:first-letter {
-	font-weight:bold;
-	background-color:red;
-	border-radius:20px;
-	margin:0px 10px 0 0;
-	padding:0px 10px;
-}
-
-.p{
-	color:#9e3364;
-	font-size:20px;
-	background-color:#DDD;
-}
+	margin-top:5px;
+}	
