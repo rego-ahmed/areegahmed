@@ -37,25 +37,31 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
-
-li a:hover {
-  background-color:green;
+.brand {
+	float: left;
 }
+li a:hover{
+	background: #000;
+
+}
+
+li a.re:hover {
+  background-color:#aaa;
+}
+
 .re
 {
 	float:left;
-	margin-right:200px;
+	background:#4caf50;
 }
+
 	
 
 .f
 {
 	border:2px solid red;
-	width:250px;
-	height:340px;
-	margin:10px;
-	padding:50px;
+	margin-left:60px;
+	padding:80px;
 	display:inline-block;
 	direction:center-right;
 	
@@ -76,20 +82,14 @@ li a:hover {
 {
 	background-image:url('ko.jpg');
  background-repeat:no-repeat;
- background-size:2500px;
+ background-size:100%;
  background-attachment:fixed;
-	padding-top:-120px;
-	padding-right:700px;
-	margin-left:10px;
-	margin-bottom:-20px;
-	margin-top:-30px;
-  display:inline-block;
+padding:120px;
 }
 #mo
 {
 	background-color:#f2c992;
-	margin:300px;
-	padding:20px;
+	padding:17px;
 	text-align:center;
 	direction:center;
 	color:black;
@@ -101,15 +101,9 @@ li a:hover {
 {
 	background-image: url('no.jpg');
 	background-repeat:no-repeat;
- background-size:1945px;
- background-attachment:fixed;
-	padding:-40px;
-	padding-right:-190px;
-	margin-left:10px;
-	margin-right:-70px;
-	margin-bottom:200px;
-	margin-top:20px;
-  display:inline-block;
+	background-size:100%;
+	background-attachment:fixed;
+	padding:70px;
 }
 	
 	
@@ -117,7 +111,6 @@ li a:hover {
 {
 	background-color:rgba(93, 138, 168, 0.5);
 	padding:30px;
-	margin:150px;
 	direction:rtl;
 	
 }
@@ -125,7 +118,7 @@ li a:hover {
 {
 	background-color:rgba(215, 103, 103, 0.52);
 	padding: 40px;
-	margin:150px;
+	margin-top:10px;
 	
 }
 

@@ -2,6 +2,7 @@
 {
 	margin:0px;
 	transition:2s;
+	box-sizing:border-box;
 }
 body
 {

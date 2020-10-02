@@ -1,0 +1,224 @@
+*
+{ 
+	margin:0px;
+	transition: 1.5s all ease-in-out;
+
+}
+body
+{
+	perspective:600px;
+	background-color:black;
+}
+.top{
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color:#72A0C1;
+  margin: 0;
+}
+
+.li {
+  display: inline-block;
+  float: right;
+}
+.reo
+{
+	width:100%;
+	padding:8px;
+	margin-right:20px;
+	margin-top:15px;
+}
+.rea
+{
+	margin:15px;
+	padding:8px;
+}
+
+
+.brand {
+	float: left;
+}
+.search
+{
+	float:right;
+}
+
+.ul li a {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding:20px;
+	font-size: 20px;
+}
+
+.ul li a:hover{
+	background: #0095B6	;
+
+}
+
+.ul li a.re:hover 
+{
+  background-color:#aaa;
+}
+
+.re
+{
+	float:left;
+	background:#00308F;
+	margin-left:15px;
+}
+.img
+{
+	width:20px;
+	height:5%;
+}
+.imgg
+
+{
+	width:19px;
+	height:5%;
+	border-radius:75%;
+}
+#facebook,#twitter,#github,#telegram
+{
+	display:block;
+	/* margin:10px; */
+	left:-71px;
+	width:100px;
+	padding:10px;
+	transition-duration: 2s;
+	color:white;
+	position: fixed;
+	z-index: 1;
+}
+
+#facebook:hover,#twitter:hover,#github:hover,#telegram:hover{
+	left: 0;
+}
+
+#telegram
+{
+	top: 80px;
+	background-color:black;
+}
+#github
+{
+	top: 120px;
+	background-color:#FFB7C5;
+}
+#twitter
+{
+	top: 160px;
+	background-color:#F7E7CE;
+}
+#facebook
+{
+	top: 200px;
+	background-color:#2A52BE;
+}
+.back
+{
+
+	background-image:url('https://www.egys7.com/wp-content/uploads/2019/05/%D8%A7%D8%A7-%D8%B5%D9%88%D8%B1-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D8%B1%D8%A7%D8%A6%D8%B9%D9%87-%D9%84%D8%B3%D8%B7%D8%AD-%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8-_-%D8%A7%D9%8A%D8%AC%D9%8A-%D8%B5%D8%AD-5.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+	padding:150px;
+	/* margin-left:10px; */
+	/* margin-bottom:10px;
+	margin-top:30px; */
+	margin: 10px 0;
+
+}
+.div1
+{
+	padding:50px;
+	width:1000px;
+	text-align:center;
+	background-color:#aaaa;
+	box-shadow: 6px 6px 5px #5D8AA8
+				,-5px -5px 5px #EFDECD
+				, 6px 6px 9px #F19CBB;
+	
+}
+.div11
+{
+	background-color:#ddd;
+	padding:30px;
+	box-shadow:5px 5px 4px rgba(0,112,255,0.5)
+				,-5px -5px 4px #333;
+
+}
+	
+.p
+{
+	text-align:center;
+	font-size:15px;
+	text-shadow:3px 3px 2px #f00
+				,3px 3px 4px #00f;
+}
+button
+{
+	width:10%;
+	height:50px;
+	border-radius:40px 10px 40px 10px;
+	color:black;
+	background:linear-gradient(to right,#0095B6,#EFDECD);
+	margin-left:10%;
+	margin-top:20px;
+	padding:8px;
+}
+	
+.div2
+{
+	background-image:url('https://imagess.cc/wp-content/uploads/2018/06/5939.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+	padding:130px;
+}
+.img1
+{
+	text-align:center;
+	margin:20px;
+	padding:15px;
+	border-radius:75%;
+	width:160px;
+	height:160px;
+	margin-left:50%;
+
+}
+
+.img1:hover{
+	
+		transform:rotate(360deg) scale(2,2);
+}
+.transform3d
+{
+	padding:90px;
+	background-color:rgba(100,149,237,0.7);
+	overflow:hidden;
+}
+.img3d
+{
+	width:200px;
+	margin-top:20px;
+}
+.transform3d:hover .img3d
+{
+	transform: scale3d(2.3,2.3,2) translate(80px,-10px)  ;
+}
+footer
+{
+	text-align:center;
+	font-size:20px;
+	color:white;
+}
+	
