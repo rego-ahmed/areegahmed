@@ -13,7 +13,8 @@ body
 	top: 0;
 	left: 0;
 	position: fixed;
-	width: 100%;
+	width:100%;
+	height:100%;
 	z-index: 1;
 }
 
@@ -128,7 +129,7 @@ body
 
 	background-image:url('https://www.egys7.com/wp-content/uploads/2019/05/%D8%A7%D8%A7-%D8%B5%D9%88%D8%B1-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D8%B1%D8%A7%D8%A6%D8%B9%D9%87-%D9%84%D8%B3%D8%B7%D8%AD-%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8-_-%D8%A7%D9%8A%D8%AC%D9%8A-%D8%B5%D8%AD-5.jpg');
 	background-repeat:no-repeat;
-	background-size:100%;
+	background-size:cover;
 	background-attachment:fixed;
 	padding:150px;
 	/* margin-left:10px; */
@@ -140,12 +141,14 @@ body
 .div1
 {
 	padding:50px;
-	width:1000px;
+	width:100%;
+	height:100%;
 	text-align:center;
 	background-color:#aaaa;
 	box-shadow: 6px 6px 5px #5D8AA8
 				,-5px -5px 5px #EFDECD
 				, 6px 6px 9px #F19CBB;
+
 	
 }
 .div11
@@ -180,7 +183,7 @@ button
 {
 	background-image:url('https://imagess.cc/wp-content/uploads/2018/06/5939.jpg');
 	background-repeat:no-repeat;
-	background-size:100%;
+	background-size:cover;
 	background-attachment:fixed;
 	padding:130px;
 }
