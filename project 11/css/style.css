@@ -1,0 +1,310 @@
+*
+{ 
+	margin:0px;
+	transition: 1.5s all ease-in-out;
+
+}
+body
+{
+
+	background-color:white;
+}
+@media only screen and (max-width: 960px) {
+body{
+}
+}
+.top{
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color:#72A0C1;
+  margin: 0;
+}
+
+.li {
+  display: inline-block;
+  float: right;
+}
+.reo
+{
+	width:100%;
+	padding:8px;
+	margin-right:20px;
+	margin-top:15px;
+}
+.rea
+{
+	margin:15px;
+	padding:8px;
+}
+
+
+.brand {
+	float: left;
+}
+.search
+{
+	float:right;
+}
+
+.ul li a {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding:20px;
+	font-size: 20px;
+}
+
+.ul li a:hover{
+	background: #0095B6	;
+
+}
+
+.ul li a.re:hover 
+{
+  background-color:#aaa;
+}
+
+.re
+{
+	float:right;
+	background:#00308F;
+	margin-left:15px;
+}
+.img
+{
+	width:20px;
+	height:5%;
+}
+.imgg
+
+{
+	width:19px;
+	height:5%;
+	border-radius:75%;
+}
+#facebook,#twitter,#github,#telegram
+{
+	display:block;
+	/* margin:10px; */
+	left:-71px;
+	width:100px;
+	padding:10px;
+	transition-duration: 2s;
+	color:white;
+	position: fixed;
+	z-index: 1;
+}
+
+#facebook:hover,#twitter:hover,#github:hover,#telegram:hover{
+	left: 0;
+}
+
+#telegram
+{
+	top: 80px;
+	background-color:black;
+}
+#github
+{
+	top: 120px;
+	background-color:#FFB7C5;
+}
+#twitter
+{
+	top: 160px;
+	background-color:#F7E7CE;
+}
+#facebook
+{
+	top: 200px;
+	background-color:#2A52BE;
+}
+
+		
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  float:right;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+
+.back
+{
+
+	background-image:url('https://www.egys7.com/wp-content/uploads/2019/05/%D8%A7%D8%A7-%D8%B5%D9%88%D8%B1-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D8%B1%D8%A7%D8%A6%D8%B9%D9%87-%D9%84%D8%B3%D8%B7%D8%AD-%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8-_-%D8%A7%D9%8A%D8%AC%D9%8A-%D8%B5%D8%AD-5.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	padding:120px;
+	/* margin-left:10px; */
+	/* margin-bottom:10px;
+	margin-top:30px; */
+	margin: 10px 0;
+
+}
+@media only screen and (max-width: 1340px) {
+	.Qeury
+	{
+		content:url(../imge/op.jpg);
+		padding:15px;
+	}
+	
+}
+.query
+{
+	content:url(../imge/po.jpg);
+	padding:15px;
+	text-align:center;
+}
+@media only screen and (max-width: 1340px) {
+.backed{
+	padding:120px;
+	margin-right:0px;
+}}
+
+.fan
+{
+	text-align:center;
+	padding:10px;
+	margin:50px auto;
+	content:url(../imge/fan3.jpg);
+}
+@keyframes fan{
+0%, 100%
+{
+	transform: rotate(0deg);
+	content:url(../imge/fan1.jpg);
+}
+10%
+	{
+		transform: rotate(36deg);
+		content:url(../imge/fan2.jpg);
+	}
+20%
+	{
+		transform: rotate(72deg);
+		content:url(../imge/fan3.jpg);
+	}
+30%
+	{
+		transform: rotate(108deg);
+		content:url('../imge/fan4.jpg');
+	}
+40%
+	{
+		transform: rotate(180deg);
+		content:url(../imge/fan5.jpg);
+	}
+50%
+	{
+		transform: rotate(216deg);
+		content:url(../imge/fan1.jpg);
+	}
+60%
+	{
+		transform: rotate(252deg);
+		content:url(../imge/fan2.jpg);
+	}
+70%
+	{
+		transform: rotate(288deg);
+		content:url(../imge/fan3.jpg);
+	}
+80%
+	{
+		transform: rotate(324deg);
+		content:url(../imge/fan4.jpg);
+	}
+90%
+	{
+		transform: rotate(360deg) center ;
+		
+		content:url(../imge/fan5.jpg);
+	}
+
+}
+.fan:hover {
+	-webkit-animation: fan 3s infinite;
+	animation: fan 3s infinite;
+}
+.font
+{
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding:90px;
+	font-family: 'death';
+	font-size:70px;
+
+}
+
+
+@font-face
+{
+	font-family: 'death';
+	src:url('../font/Death_Note_Font_by_Karlibell22.ttf');
+
+}
+
+footer
+{
+	text-align:center;
+	font-size:23px;
+	color:black;
+	margin-top:10px;
+}
