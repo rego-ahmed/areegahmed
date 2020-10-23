@@ -129,6 +129,101 @@ body{
 }
 
 		
+.toggle
+{
+	display:none;
+	margin-top: 10px;
+	width:150px;
+	float:right;
+	position:relative;
+}
+
+.toggle .switch
+{
+	position:relative;
+	background:blue;
+	margin:5px;
+	width:70px;
+	float:right;
+	height:35;
+}
+.switch .slider
+{
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+	cursor:pointer;
+	transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input {display:none}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+input:checked ~ .minn {
+  display: block !important;
+  position: fixed;
+  right: 0;
+  background-color: #0095b6;
+  top: 60px;
+}
+
+@media(max-width:680px)
+{
+	.cc{
+		display:none
+	}
+
+	.toggle{
+		display:block
+	}
+}
+.minn 
+{
+	width:240px;
+	height:110px;
+	font-size:30px;
+	background:#0095b6;
+	top:25px;
+	position:absolute;
+	right: -360px;
+	transition: right .5s ease-in-out;
+}
+.minn li
+{
+	list-style:none;
+	padding:10px;
+	cursor:pointer;
+	/*width:340px;
+	height:70px;*/
+	text-align:center;
+}
+.minn li:hover
+{
+	background:#ddd;
+}
 
 .switch {
   position: relative;
@@ -195,6 +290,7 @@ input:checked + .slider:before {
 	/* margin-bottom:10px;
 	margin-top:30px; */
 	margin: 10px 0;
+	text-align:center;
 
 }
 @media only screen and (max-width: 1340px) {
@@ -202,6 +298,7 @@ input:checked + .slider:before {
 	{
 		content:url(../imge/op.jpg);
 		padding:15px;
+		margin-left:10px;
 	}
 	
 }
@@ -215,14 +312,18 @@ input:checked + .slider:before {
 .backed{
 	padding:120px;
 	margin-right:0px;
-}}
+	text-align:center;
 
-.fan
+}}
+.fanc
 {
 	text-align:center;
-	padding:10px;
+	padding:90px;
 	margin:50px auto;
-	content:url(../imge/fan3.jpg);
+	background-image:url('../imge/liberty.jpg');
+	background-size:100% 100%;
+	background-attachment:fixed;
+	/*content:url(../imge/fan3.jpg);*/
 }
 @keyframes fan{
 0%, 100%
@@ -280,8 +381,12 @@ input:checked + .slider:before {
 }
 .fan:hover {
 	-webkit-animation: fan 3s infinite;
-	animation: fan 3s infinite;
+	animation: fan 0.1s infinite;
 }
+
+
+
+
 .font
 {
 	background-color:black;
