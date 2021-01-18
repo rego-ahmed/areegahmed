@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>MY PAGE JQUERY</title>
+<script src="jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function(){
+$("button").click(function(){
+$("input").show();
+});
+$(".btn").click(function(){
+$("p").css({"background-color":"red","font-size":"300%"});
+});
+$("#re").click(function(){
+var strName= $("#AEWW").val();
+$("#h1").text("HEELO 1"+strName);
+$("#ty").text($("input").css("background-color"));
+$("#AEWW").val("Areeg");
+$("input").css("background-color","red");
+$("#div1").text("This is the first project to be done using Jaguar, which is a language that simplifies and shortens a lot of style and javascript codes and gives more aesthetic shapes");
+});
+});
+/*$(document).ready(function(){
+$("#btn1").click(function(){
+$(#"div1").text("This is the first project to be done using Jaguar, which is a language that simplifies and shortens a lot of style and javascript codes and gives more aesthetic shapes");
+});
+});
+*/
+</script>
+
+</head>
+<body>
+<input placeholder="NAME"/>
+<input placeholder="ADDRESS"/>
+<input placeholder="PHONE"/>
+<input id="AEWW"placeholder="AEWW"/>
+<input type="button" value="Input Here" onclick="$('input').hide();"/>
+<p style="background-color:#4444;">This is pargrphe</p>
+<p style="background-color:#4444;">This is pargrphe</p>
+<p style="background-color:#4444;">This is pargrphe</p>
+<p style="background-color:#4444;">This is pargrphe</p>
+
+<button class="btn">CLICK</button>
+<button>CLICK2</button>
+<button id="re">CLICK3</button>
+<hr>
+<h1 id="h1"></h1>
+  <h1 id="div1"></h1>
+<div id="ty"></div>
+<!--<div class="img1">
+  <h1 id="div1"></h1>
+  </div> 
+  <button id="btn1">Button</button>
+
+-->
+</body>
+</html>

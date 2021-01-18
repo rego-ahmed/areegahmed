@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> areeg-second-css</title>
+	<link rel ="stylesheet" href="css/css.css"/>
+	<link rel ="stylesheet" href="css/brands.min.css" />
+	<link rel ="stylesheet" href="css/fontawesome.min.css"/>
+	<link rel ="stylesheet" href="css/solid.min.css" />
+	<style>
+
+	</style>
+</head>
+<body>
+	<!--header -->
+  <div class="top">
+      <ul>
+          <li class="brand"><a class="re" href="Home">Home</a></li>
+          <li><a href="facebook"><i class="fab fa-facebook-square"></i></a></li>
+          <li><a href="instgrame"><i class="fab fa-instagram-square"></i></a></li>
+          <li><a href="whatsap"><i class="fab fa-whatsapp"></i></a></li>
+          <li><a href="telegram"><i class="fab fa-telegram"></i></a></li>
+      </ul>
+  </div>
+
+  <div class="sideNav">
+    <a href="#" id="about">About</a>
+    <a href="#" id="Bloge">Bloge</a>
+    <a href="#" id="Project">Project</a>
+    <a href="#" id="contact">contact</a>
+  </div>
+ <!-- DIV -->
+ <div class="back">
+	<div class="add">
+		<input type="text" id ="x1" placeholder="Number 1"/>
+		<hr>
+		<input type="text" id ="x2" placeholder="Number 2"/>
+		<hr>
+		<!-- <input  type="text" id ="ans" value="The sum is: "/> -->
+		<div id="">
+		<span>answer is:</span>
+		<span id="ans"></span>
+		</div>
+ 		<hr>
+		<button id="btn" onclick="add();">Add</button>
+		</div>
+		<hr>
+		<div class="prompt">
+		<button id="btn2" onclick="Func();">prompt</button>
+		<p id="promptp"></p>
+		</div>
+		<hr>
+		<div class="Time">
+		<button id="btn3" onclick="time();">Tell ME Time On Clock</button>
+		<p id="Date"></p>
+		<hr>
+		<input type="text" id="innum" onkeypress="number();"/>
+		<p id="num"></p>
+		<hr>
+	<input type="color" id="incolor" />
+	<p id="colr" onclick="color();">BackGround With Color</p>
+	</div>
+	<hr>
+<div id="arr">
+	<input id="inarr"/>
+	<p>Choose number to stor elements (maximum 19 user)</p>
+	
+	<button
+            onclick="isNaN(document.getElementById('inarr').value) || document.getElementById('inarr').value == '' ? 
+			( confirm('type valid number') ? alert('good') : alert('not aprroved ans') ) 
+			: array(Number(document.getElementById('inarr').value))">Make array</button>
+	<button
+            onclick="confirm('are you sure') ? document.getElementById('darr').innerText = '' : '' ;"
+          >
+            del array
+          </button>
+		  <div id="darr"></div>
+ </div>
+</div>
+	 <script src="js/java.js"> </script>
+	 </body>
+	 </html>
